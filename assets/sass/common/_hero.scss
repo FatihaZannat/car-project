@@ -1,0 +1,58 @@
+.cs_hero {
+    position: relative;
+
+    .cs_hero_text {
+
+        position: absolute;
+        text-align: center;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.cs_searching_bar {
+
+    & .cs_searching_bar_in {
+        padding: 0 20px;
+background: #ffff;
+position: relative;
+top: -10px;
+        width: 945px;
+        height: 82px;
+        border-radius: 8px;
+        box-shadow: 5px 4px 8px 0 rgba(153, 155, 168, 0.15);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        // padding-bottom: 0;
+
+       div {
+            & > div {
+                font-size: 14px;
+                padding-bottom: 0;
+                 p{
+                    padding-bottom: 0;
+                }
+                &:not(:nth-child(2)){
+                padding-top: 50px;
+                }
+                i{
+                    padding-left: 50px;
+                   
+                }
+            }
+        }
+    }
+}
+
+.cs_brands{
+    display: flex;
+    justify-content: space-between;
+    & > i{
+        font-size: 18px;
+        color: gray;
+    }
+}

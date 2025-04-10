@@ -1,0 +1,54 @@
+.cs_site_header {
+   
+}
+
+.cs_main_header {
+
+}
+
+.cs_main_header_in {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   a{
+    font-size: 16px;
+   }
+}
+
+.cs_main_header_right {
+    .cs_nav {
+
+        .cs_nav_list {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+            list-style: none;
+
+
+            li {
+                list-style: none;
+                padding-right: 45px;
+            }
+
+        }
+    }
+}
+.signUp{
+    a{
+    display: flex;
+    align-items: center;
+    .signUp-box{
+        width: 32px;
+        height: 32px;
+        background-color: #F5F6F7;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+}}
