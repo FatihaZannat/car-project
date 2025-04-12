@@ -1,0 +1,35 @@
+
+.cs_active_action{
+    
+}
+.cs_cards{
+    border: 1px solid #E4E6E8;
+    padding: 20PX;
+    border-radius: 8px;
+   
+   .cs_card_img{
+    width: 100%;
+    padding-bottom: 15px;
+   }
+    
+}
+.cs_action_logo{
+    display: flex;
+    margin-top: 20px;
+    & > .cs_action_logo_img{
+        height: 40px;
+        width: 40px;
+        border-radius: 8px;
+        background-color: #E4E6E8;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14px;
+        margin-bottom: 24px;
+    }
+}
+.cs_price{
+    display: flex;
+    justify-content: space-between;
+}

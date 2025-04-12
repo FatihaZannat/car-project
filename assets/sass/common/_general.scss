@@ -15,6 +15,14 @@
     }
   }
   
+  .cs_fs_14 {
+    font-size: 14px;
+    line-height: 1.42em;
+  }
+  .cs_fs_18{
+    font-size: 18px;
+    line-height: 1.42em;
+  }
   .cs_fs_21 {
     font-size: 21px;
     line-height: 1.42em;
@@ -28,8 +36,8 @@
     }
   }
   
-  .cs_fs_37 {
-    font-size: 37px;
+  .cs_fs_42 {
+    font-size: 42px;
     line-height: 1.42em;
     @media (max-width: 991px) {
       font-size: 32px;
@@ -231,6 +239,9 @@
   .cs_secondary_color {
     color: var(--secondary);
   }
+  .cs_mute_color {
+    color: var(--mute);
+  }
   
   .cs_ternary_color {
     color: var(--ternary);
@@ -267,15 +278,14 @@
   
   .cs_btn.cs_style_1 {
     border: none;
-    padding: 13px 28px;
     outline: none;
     font-weight: 600;
     color: #fff;
-    background-color: transparent;
+    background-color: var(--accent);
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 1.5px solid #3d3d3d;
+    padding: 12px 26px;
     @media (max-width: 991px) {
       padding: 12px 20px;
     }

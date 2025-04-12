@@ -1,0 +1,31 @@
+.cs_find_car{
+
+
+    .cs_find_car_header{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.cs_popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cs_popular_car{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    img{
+        padding-right: 15px;
+    }
+}
+table{
+    width: 100%;
+    
+    tr{
+        font-size: 16px;
+    }
+}
+.active{
+    background-color: #fff;
+}

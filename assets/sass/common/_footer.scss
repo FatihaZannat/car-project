@@ -1,0 +1,17 @@
+.cs_footer{
+    background-color: #F5F6F7;
+}
+.cs_pricacy_policy{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: #fff;
+    
+    span{
+        padding-right: 14px;
+    }
+    i{
+        padding-right: 5px;
+        color: var(--mute);
+    }
+}

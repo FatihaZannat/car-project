@@ -1,6 +1,10 @@
 .cs_hero {
     position: relative;
 
+    .cs_hero_img {
+        width: 100%;
+    }
+
     .cs_hero_text {
 
         position: absolute;
@@ -13,12 +17,18 @@
 }
 
 .cs_searching_bar {
-
+   
+    .cs_serching_bar_middle{
+        display: flex;
+        justify-content: center;
+        
+    }
     & .cs_searching_bar_in {
+      
         padding: 0 20px;
-background: #ffff;
-position: relative;
-top: -10px;
+        background: #ffff;
+        position: relative;
+        top: -10px;
         width: 945px;
         height: 82px;
         border-radius: 8px;
@@ -29,30 +39,51 @@ top: -10px;
         font-size: 14px;
         // padding-bottom: 0;
 
-       div {
-            & > div {
+        div {
+            &>div {
                 font-size: 14px;
                 padding-bottom: 0;
-                 p{
+
+                p {
                     padding-bottom: 0;
                 }
-                &:not(:nth-child(2)){
-                padding-top: 50px;
+
+                &:not(:nth-child(2)) {
+                    padding-top: 50px;
                 }
-                i{
+
+                i {
                     padding-left: 50px;
-                   
+
                 }
             }
         }
     }
 }
 
-.cs_brands{
+.cs_brands {
     display: flex;
     justify-content: space-between;
-    & > i{
+
+    &>i {
         font-size: 18px;
         color: gray;
+    }
+}
+
+.cs_btn {
+    background-color: var(--primary);
+
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.cs_btn {
+
+    // padding-top: 0 !important;
+    i {
+        padding-right: 10px;
     }
 }
