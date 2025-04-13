@@ -52,3 +52,50 @@
         margin-bottom: 0;
     }
 }}
+
+.cs_menu_toggle{
+    display: inline-block;
+    width: 30px;
+    height: 27px;
+    cursor: pointer;
+    position: absolute;
+    
+
+    span,
+    span:before,
+    span:after{
+        width: 100%;
+        height: 2px;
+        display: block;
+        background-color: black;
+    }
+    span{
+        margin: 0 auto;
+        position: relative;
+        top: 12px;
+        transition-duration: 0s;
+        transition-delay: 0.2s;
+        
+        
+        
+        &::before{
+            content: '';
+            position: absolute;
+            margin-top: -9px;
+            transition-property: margin, transform;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s, 0s;
+        }
+        &::after{
+            content: '';
+            margin-top: 9px;
+            position: absolute;
+            transition-property: margin, transform;
+        transition-duration: 0.2s;
+        transition-delay: 0.2s, 0s;
+        }
+    }
+}
+.cs_menu_toggle{
+    display: none;
+}

@@ -1,5 +1,14 @@
 .cs_footer{
     background-color: #F5F6F7;
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        display: block;
+        cursor: pointer;
+    }
 }
 .cs_pricacy_policy{
     display: flex;

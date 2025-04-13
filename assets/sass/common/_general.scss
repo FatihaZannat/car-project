@@ -285,12 +285,13 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 26px;
+    padding: 10px 26px;
     @media (max-width: 991px) {
-      padding: 12px 20px;
+      padding: 12px 24px;
     }
     &:hover {
-      color: var(--web-wash);
+      transition: all 0.3s ease;
+      color: #fff;
       background-color: var(--primary);
       border-color: var(--primary);
     }

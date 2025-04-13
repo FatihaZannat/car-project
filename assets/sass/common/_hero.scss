@@ -38,6 +38,19 @@
         align-items: center;
         font-size: 14px;
         // padding-bottom: 0;
+        @media screen and (max-width: 991px) {
+            display: flex;
+            flex-direction: column;
+            width: 390px;
+            height: 366px;
+            div{
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+           
+        }
 
         div {
             &>div {
