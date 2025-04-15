@@ -1,5 +1,7 @@
 
-
+.cs_counter_wrap{
+    padding-top: 25px;
+}
 .cs_counter{
     height: 72px;
     width: 64px;
@@ -9,11 +11,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .cs_autions_img{
     padding-left: 104px;
 }
 .cs_auction_btn_icon{
     padding-right: 8px;
+}
+@media screen and (max-width: 994px) {
+    .cs_auction{
+        img{
+            display: none;
+        }
+    }
+    
 }
