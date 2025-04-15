@@ -17,12 +17,7 @@
             $('.cs_nav_list').removeClass('cs_active')
             $('.cs_menu_toggle').removeClass('cs_toggle_active')
         });
-        $('.cs_menu_toggle')
-            .parents('body')
-            .find('.cs_side_header')
-            .addClass('cs_has_main_nav');
-           
-            console.log('cs_menu_toggle');
+        
 
 
     }

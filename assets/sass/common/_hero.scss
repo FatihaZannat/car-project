@@ -6,25 +6,39 @@
     }
 
     .cs_hero_text {
-
         position: absolute;
         text-align: center;
-
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+       
+    }
+    @media screen and (max-width: 994px) {
+        .cs_hero_text{
+            h1{
+                font-size: 36px;
+            }
+        }
+       .cs_hero_text{
+        top: 20%;
+       }
+       .cs_hero_img{
+        max-width: max-content !important;
+        width: auto;
+       }
     }
 }
 
 .cs_searching_bar {
-   
-    .cs_serching_bar_middle{
+
+    .cs_serching_bar_middle {
         display: flex;
         justify-content: center;
-        
+
     }
+
     & .cs_searching_bar_in {
-      
+
         padding: 0 20px;
         background: #ffff;
         position: relative;
@@ -37,19 +51,36 @@
         justify-content: space-between;
         align-items: center;
         font-size: 14px;
-        // padding-bottom: 0;
+
         @media screen and (max-width: 991px) {
-            display: flex;
-            flex-direction: column;
-            width: 390px;
-            height: 366px;
-            div{
-                div{
-                    display: flex;
-                    justify-content: space-between;
-                }
+            padding: 16px 20px;
+            top: -200px;
+           
+            .cs_searching_bar_btn {
+                padding: 12px 200px !important;
             }
            
+            .cs_bar_item {
+                width: 100%;
+            }
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            height: 366px;
+
+            div {
+                div {
+                    display: flex;
+                    justify-content: space-between;
+
+                    @media screen and (max-width: 11990px) {
+                        flex-direction: column;
+
+
+                    }
+                }
+            }
+
         }
 
         div {
@@ -60,11 +91,6 @@
                 p {
                     padding-bottom: 0;
                 }
-
-                &:not(:nth-child(2)) {
-                    padding-top: 50px;
-                }
-
                 i {
                     padding-left: 50px;
 
@@ -99,4 +125,34 @@
     i {
         padding-right: 10px;
     }
+}
+
+.cs_bar_item {
+    align-items: flex-end;
+    justify-content: space-between;
+
+    i {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .responsive-break {
+        display: none;
+    }
+    .cs_brands{
+       img{
+        &:first-child{
+            display: none;
+        }
+        &:nth-child(2){
+            display: none;
+        }
+        &:nth-child( 3){
+            display: none;
+        }
+       }
+       padding-bottom: 60px;
+    }
+
 }
